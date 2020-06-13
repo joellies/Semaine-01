@@ -1,0 +1,87 @@
+/* Structure */
+body {
+  background-color: white;
+  font-size: 14px;
+  color: #2c332a;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  line-height: 150%;
+  height: auto;
+}
+
+h1 {
+  color: #2c332a;
+  font-size: 3em;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: sticky;
+}
+
+h2 {
+  color: #6d6e6b;
+  font-size: 1.5em;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 20px;
+  text-align: center;
+}
+
+h2.infos {
+  color: #2c332a;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.footer {
+  weight: bold;
+  clear: both;
+}
+
+.main-section {
+  width: auto;
+  height: auto;
+}
+#first-section {
+  text-align: center;
+}
+#informations {
+  width: 30%;
+  background-color: #defed2;
+  margin: 15px;
+  padding: 20px;
+}
+
+#ingredients {
+  background-color: #f7faf5;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin: 15px;
+  width: 25%;
+}
+
+#preparation {
+  background-color: #f7faf5;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin: 15px;
+  padding: 20px;
+}
+
+/* Images */
+.asperges {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 890px;
+  padding: 10px;
+}
