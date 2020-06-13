@@ -15,7 +15,6 @@ h1 {
   font-family: 'Monserrat', sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
-  position: sticky;
 }
 
 h2 {
@@ -29,6 +28,7 @@ h2 {
   border-top: 1px solid rgb(222, 222, 222);
   border-bottom: 1px solid rgb(222, 222, 222);
 }
+
 
 h2.infos {
   color: #2c332a;
@@ -64,18 +64,14 @@ p {
 #ingredients {
   background-color: #f7faf5;
   float: left;
-  margin-left: auto;
-  margin-right: auto;
+  width: 25%;
   padding: 20px;
   margin: 15px;
-  width: 25%;
 }
 
 #preparation {
   background-color: #f7faf5;
   float: right;
-  margin-left: auto;
-  margin-right: auto;
   width: 60%;
   margin: 15px;
   padding: 20px;
