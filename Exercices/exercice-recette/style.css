@@ -1,5 +1,5 @@
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   color: black;
 }
 h3 {
@@ -11,7 +11,6 @@ p {
   line-height: 180%;
   letter-spacing: 200%;
 }
-
 body {
   background-color: rgb(249, 249, 249);
   color: rgb(27, 29, 38);
@@ -27,22 +26,45 @@ body {
   justify-content: center;
   height: auto;
 }
-div.logo {
-  margin-top: 2%;
-  margin-bottom: 5%;
-}
-div.first-titles-container {
-  padding: 50px;
-  width: 30%;
-}
+
 div.title {
   margin: 1%;
   padding-left: 1%;
   letter-spacing: 3px;
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
-.text-container-first {
+.container-table {
   display: flex;
   justify-content: flex-start;
 }
+.informations {
+  font-family: 'Monserrat', sans serif;
+  font-weight: 200;
+  background-color: #defed2;
+  padding: 20px;
+  margin: 15px 10px 15px 10px;
+}
+
+.ingredients {
+  font-family: 'Montserrat', sans serif;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.preparation {
+  font-family: 'Roboto', sans serif;
+  line-height: 180%;
+}
+.footer {
+  font-weight: bold;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Images */
+.asperges {
+  width: 90%;
+}
