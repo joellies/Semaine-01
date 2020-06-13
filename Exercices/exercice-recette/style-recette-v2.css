@@ -68,3 +68,11 @@ table {
 .asperges {
   width: 90%;
 }
+.food-icon {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.infos-icon {
+  width: 40px;
+}
